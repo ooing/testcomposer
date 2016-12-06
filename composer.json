@@ -1,17 +1,15 @@
 {
-    "name": "ooing/testcomposer",
-    "description": "test",
-	"type": "library",
+    "name": "kbrabrand/package",
+    "description": "My test package",
+    "license": "MIT",
     "authors": [
         {
-            "name": "king",
-            "email": "335008594@qq.com"
+            "name": "Kristoffer Brabrand",
+            "email": "kristoffer@brabrand.no"
         }
     ],
-    "require": {},
-	 "autoload":{  
-        "psr-4":{  
-            "ooing\\testcomposer\\":"src/" 
-        } 
+    "autoload": {
+        "psr-0": {
+            "KBrabrand": "src"
+        }
     }
-}
