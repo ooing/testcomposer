@@ -1,0 +1,17 @@
+{
+    "name": "ooing/testcomposer",
+    "description": "test",
+	"type": "library",
+    "authors": [
+        {
+            "name": "king",
+            "email": "335008594@qq.com"
+        }
+    ],
+    "require": {},
+	 "autoload":{  
+        "psr-4":{  
+            "ooing\\testcomposer\\":"src/" 
+        } 
+    }
+}
